@@ -7,6 +7,7 @@ import {
   addStack,
   toggleDocs,
   changeKeyMove,
+  changeWidthDocs,
   setDocsVisible,
 } from '../../../state/docs/actions'
 import { GraphQLSchema } from 'graphql'
@@ -251,6 +252,7 @@ const mapDispatchToProps = dispatch =>
       addStack,
       toggleDocs,
       changeKeyMove,
+      changeWidthDocs,
       setDocsVisible,
     },
     dispatch,
